@@ -1,0 +1,634 @@
+/* Mobile*/
+
+@media only screen and (max-width: 700px) {
+
+    .cola{
+        box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin: 20px 0px;
+        border-radius: 20px;
+        
+    }
+    .second-pic {
+        display: none;
+    }
+
+    .grid-thumbani-shop {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        max-width: 100%;
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    .img-product {
+        
+    }
+
+    .shop-moshakhasat {
+        margin-top: 60px;
+    }
+
+    .grid-buttons-shop {
+      display: grid;
+    grid-template-columns: 45% 6% 60%;
+    align-items: center;
+    justify-content: unset;
+    }
+   
+  
+    .according-img{
+        width: 100%;
+        display: grid;
+    }
+
+    .row-shop-tab{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto;
+    max-width: 100%;
+    border-radius: 25px;
+}
+  .grid-shop{
+    direction: rtl;
+    width: 95%;
+    margin: auto;
+    display: block;
+} 
+  .shop-6 {
+    border-radius: 25px;
+    padding: 10px;
+}
+    .one-div{
+    display: grid;
+    grid-template-columns: auto;
+    
+}
+    .img-shop-left{
+        margin: 50px auto;
+    }
+       .div-product{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto;
+    } 
+    .img-product{
+        border-radius: 20px;
+    }
+
+}
+
+
+/* Desktop*/
+
+@media only screen and (min-width: 700px) {
+        .grid-thumbani-shop {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .img-product {
+        border-right: 1px solid #888888;
+        
+    }
+        .img-shop-left{
+        margin: 50px 0px;
+    }
+    .shop-moshakhasat {
+        box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+.row-shop-tab{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+      padding: 30px;
+    border-radius: 25px;
+}
+ 
+
+    .according-img {
+    width: 80%;
+    height: 80%;
+    cursor: zoom-in;
+    margin: auto;
+}
+
+   .grid-shop{
+    direction: rtl;
+    width: 85%;
+    margin: auto;
+    display: block;
+} 
+    
+    .shop-6 {
+    border-radius: 25px;
+    padding: 15px;
+}  
+    
+    .one-div{
+    display: grid;
+    grid-template-columns: auto auto;
+    
+}
+    .first-pic {
+    direction: ltr;
+}
+    .div-product{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }  
+    .row-product-bottom{
+        box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .row-product-bottom{
+        padding: 30px;
+    }
+    
+}
+.grid-top{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+
+
+
+
+
+    .row-product-bottom {
+    margin: 0 auto;
+    border-radius: 25px;
+    color: 28aade;
+    font-weight: 700;
+
+}
+
+
+.woo {
+    margin: 0 auto;
+}
+
+
+
+.hgg{
+   width: 100%;
+   height: 100%;
+   display: flex;
+   align-items: flex-end;
+   justify-content: center;
+}
+
+
+.discript {
+    
+    text-align: center;
+    width: 120px;
+    height: 30px;
+    color: white;
+    background-color: 28aada;
+    border-radius: 10px;
+    z-index: 1;
+
+   
+
+}
+
+
+
+.discript > p {
+    text-align: center;
+    font-size: 15px;
+}
+
+
+.img-shop-left {
+   
+    background-size: 100% 100% !important;
+    
+    
+    width: 80%;
+    height: 350px;
+    box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px 20px 0 0;
+    cursor: zoom-in;
+    background-image: url("image/body/device_Mockup_1@2x.jpg") !important;
+  
+}
+
+.img-shop-right {
+   
+    background-size: 100% 100% !important;
+    margin: 50px 0px;
+
+    width: 80%;
+    height: 350px;
+    box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px 20px 0 0;
+    cursor: zoom-in;
+    background-image: url("image/body/shop-1.jpg") !important;
+
+
+}
+
+ 
+
+.img-shop-right:hover {
+
+    width: 90%;
+    height: 400px;
+    box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.img-shop-left:hover {
+
+    width: 90%;
+    height: 400px;
+    box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.moshakhasat {
+    margin: 20 auto;
+    box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+
+}
+
+.moshakhasat-div > p {
+    text-align: center;
+}
+
+
+.moshakhasat-img {
+    display: block;
+    margin: 10px auto;
+}
+
+.div-tab-inside {
+    margin: 30px auto;
+
+}
+
+.row-shop-tab {
+    box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+
+
+
+
+.col-img {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #888888;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.col-img:hover {
+    transform: scale(1.2, 1.2);
+}
+
+
+.shop-according-top {
+    color: #28aade;
+    margin: 5px;
+    font-weight: 800;
+    opacity: 0.7;
+}
+
+.shop-according-top-h3 {
+    color: #28aade;
+    font-weight: 500;
+    margin-top: 60px;
+}
+
+.body-hr {
+    width: 100%;
+    background-color: #28aade;
+    height: 3px;
+    opacity: 1;
+    margin: 90px auto 0 auto;
+    border-radius: 10px;
+
+}
+
+.stare-shop {
+    color: #7fb53d;
+    font-weight: 600;
+    margin: 20px 0;
+}
+
+.stare-shop::after {
+    content: "\2606""\2606""\2606""\2606";
+}
+
+.according-price {
+    color: white;
+    font-weight: 800;
+    background-color: #28aade;
+    border-radius: 25px;
+    width: 180px;
+    height: 40px;
+    margin-bottom: 30px;
+}
+
+.according-price-p {
+    text-align: center;
+    line-height: 2;
+}
+
+
+.according-shop-onvan {
+    color: #28aade;
+}
+
+ul.shop-ul .a {
+
+    list-style-image: url('image/body/noun_urine_2997409.svg');
+    margin: 10px 15px;
+    padding: 0px 31px 0px 0px;
+    color: gray;
+
+}
+
+ul.shop-ul .b {
+    list-style-image: url('image/body/noun_transport_1526074.svg');
+    margin: 10px 15px;
+    padding: 0px 31px 0px 0px;
+    color: gray;
+}
+
+ul.shop-ul .c {
+    list-style-image: url('image/body/Group%2081.svg');
+    margin: 10px 15px;
+    padding: 0px 31px 0px 0px;
+    color: gray;
+
+}
+
+
+.add-to-cart {
+    background-color: #7fb53b;
+    font-weight: 800;
+    color: white;
+    border-radius: 20px;
+    width: 100%;
+    height: 35px;
+    text-align: center;
+    line-height: 32px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.add-to-cart:hover {
+    transform: scale(1.2, 1.2);
+}
+
+.icon-shop {
+    content: /128722;
+    font-size: 34px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.icon-shop:hover {
+    transform: scale(1.2, 1.2);
+}
+
+.mahsolate-moshabehe-p {
+    color: #28aade;
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;
+    margin: 30px auto;
+}
+
+
+
+.img-product {
+    width: 100%;
+    height: 80%;
+    cursor: pointer;
+    
+}
+
+.up {
+    width: 30px;
+    height: 30px;
+    background-color: 28aade;
+}
+
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    width: fit-content;
+
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: #f1f1f1;
+    border-radius: 20px 20px 0px 0px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+    border-radius: 20px 20px 0px 0px;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: block;
+    padding: 6px 12px;
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s;
+}
+
+/* Fade in tabs */
+@-webkit-keyframes fadeEffect {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeEffect {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: #f1f1f1;
+    border-radius: 20px 20px 0px 0px;
+    float: right;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 21px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+    border-radius: 20px 20px 0px 0px;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: block;
+    padding: 6px 12px;
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s;
+}
+
+/* Fade in tabs */
+@-webkit-keyframes fadeEffect {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeEffect {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.describe-product {
+    display: grid;
+    grid-template-columns: auto;
+    color: gray;
+    max-width: 100%;
+}
+
+.tablinks {
+    color: gray;
+    font-weight: 700;
+    font-size: 21px;
+}
+
+.left-shop-p {
+    text-align: left;
+}
+
+.moshakhasat-div {}
+
+.last-div-shop {
+    display: block;
+    margin: 20px auto;
+}
+
+.tablinks {
+    box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+
+
+
+
+
+
+
+
+/* a:link, a:visited {
+  transition: color 0.15s ease 0s, border-color 0.15s ease 0s, background-color 0.15s ease 0s;
+} */
+
+
+.quantity {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.quantity__minus,
+.quantity__plus {
+    display: block;
+    width: 35px;
+    height: 35px;
+    margin: 0;
+    background: #28aade;
+    text-decoration: none;
+    text-align: center;
+    line-height: 23px;
+    border-radius: 5px;
+}
+
+.quantity__minus:hover,
+.quantity__plus:hover {
+    color: #fff;
+}
+
+.quantity__input {
+    width: 45px;
+    height: 35px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    border-top: 2px solid #dee0ee;
+    border-bottom: 2px solid #dee0ee;
+    border-left: 1px solid #dee0ee;
+    border-right: 2px solid #dee0ee;
+    background: #fff;
+    color: #8184a1;
+}
+
+.quantity__minus:link,
+.quantity__plus:link {
+    color: #8184a1;
+}
+
+.quantity__minus:visited,
+.quantity__plus:visited {
+    color: #fff;
+}

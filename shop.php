@@ -4,7 +4,11 @@
 
     <div class="grid-shop">
        
+ 
+       
 
+
+     
 
             <div class="one-div">
                 <div class="div-top-shop-inside first-pic">
@@ -80,6 +84,8 @@
 
                             <div class="row-shop-tab">
                                 <div class="shop-6">
+
+                                
                                     <img src="assets/image/body/pscking-3mahe.jpg" class="according-img">
                                     <div class="grid-thumbani-shop">
                                         <div class="pscking">
@@ -93,7 +99,9 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="shop-moshakhasat shop-6">
+                         <div class="shop-moshakhasat shop-6">
+                                    
+
                                     <p class="shop-according-top">محصولات مشخصات کیت تشخیص </p>
                                     <div class="grid-top">
                                         <div class="div-a">
@@ -146,6 +154,9 @@
                         </div>
 
                     </div>
+      
+
+
                 </div>
             </div>
 
@@ -158,38 +169,37 @@
             <div class="div row-product-bottom">
 
                 <div class="div-product">
+            
+
+                <?php
+                      $params = array(
+                          'posts_per_page' => 5,
+                           'post_type' => 'product'
+                        );
+                        $wc_query = new WP_Query($params);
+                        if ($wc_query->have_posts()) : 
+                            while ($wc_query->have_posts()) :
+                                $wc_query->the_post(); 
+                      ?>
+                        <a href="<?php the_permalink(); ?>">
                     <div class="cola">
+                    
                         <div data-aos="zoom-out-left" data-aos-duration="5000">
 
-                            <img src="assets/image/body/pscking-12mahe.jpg" class="img-product">
-                            <p> پکیج 12 ماه </p>
-                            <p class="left-shop-p"> 5000 ت</p>
+                        <?php   the_post_thumbnail( 'medium', array('class' => 'alignleft')); ?>
+                            
+                            <p>  <?php the_title(); ?> </p>
+                            <p class="left-shop-p"> <?php echo $product->get_price_html(); ?></p>
                         </div>
                     </div>
-                    <div class="cola">
-                        <div data-aos="zoom-out-left" data-aos-duration="4000">
-
-                            <img src="assets/image/body/pscking-6mahe.jpg" class="img-product">
-                            <P> پکیج 6 ماه </P>
-                            <p class="left-shop-p"> 5000 ت</p>
-                        </div>
-                    </div>
-                    <div class="cola">
-                        <div data-aos="zoom-out-left" data-aos-duration="3000">
-
-                            <img src="assets/image/body/pscking-3mahe.jpg" class="img-product">
-                            <p> پکیج 3 ماه </p>
-                            <p class="left-shop-p"> 5000 ت</p>
-                        </div>
-                    </div>
-                    <div class="cola">
-                        <div data-aos="zoom-out-left" data-aos-duration="2000">
-
-                            <img src="assets/image/body/pscking-1mahe.jpg" class="img-product">
-                            <p> پکیج 1 ماه </p>
-                            <p class="left-shop-p"> 5000 ت </p>
-                        </div>
-                    </div>
+                        </a>
+                    <?php endwhile; ?>
+    
+    <?php else:  ?>
+         <?php _e( 'No Products' ); ?>
+    <?php endif; ?>
+                      
+                 
                 </div>
 
             </div>
